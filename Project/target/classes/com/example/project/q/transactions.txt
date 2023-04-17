@@ -1,5 +1,6 @@
 2023-04-19,pwede na,1000,pogi,income
-2023-04-19,pwede na,1000,pogi,income
-2023-04-19,pwede na,1000,pogi,income
-2023-04-19,pwede na,1000,pogi,income
-2023-04-19,pwede na,1000,pogi,income
+2023-04-19,pwede na,10000,pogi,income
+2023-04-19,pwede na,1000,pogi,expense
+2023-04-19,pwede na,1000,pogi,expense
+2023-04-19,pwede na,10000,pogi,income
+2023-04-12,Investments,9000,Payaman,income

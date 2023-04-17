@@ -1,0 +1,4 @@
+2023-04-15,Income,100000,Salary,income
+2023-04-15,Transportation,10000,Gas Allocation,expense
+2023-04-15,Food ,10000,Groceries,expense
+2023-04-14,Micellaneous,5000,Gimik,expense

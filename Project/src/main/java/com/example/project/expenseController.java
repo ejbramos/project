@@ -142,6 +142,7 @@ public class expenseController {
                 p2.println(date5.getValue() +","+ source5.getText() +","+ amount5.getText() +","+ description5.getText()+",expense");
                 p3.println(amount5.getText());
             }
+            p2.close();
         }
         catch (Exception e){
             System.out.println(e);

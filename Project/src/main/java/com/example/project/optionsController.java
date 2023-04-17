@@ -10,6 +10,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class optionsController {
@@ -87,7 +88,7 @@ protected void expenseClick(ActionEvent event){
 }
     @FXML
     protected void analysisClick(ActionEvent event){
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("analysis.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("option2.fxml"));
         Parent root = null;
         try {
             root = loader.load();
@@ -95,9 +96,14 @@ protected void expenseClick(ActionEvent event){
             throw new RuntimeException(e);
         }
 
-        transHisController main = loader.getController();
+        analysisController main = loader.getController();
         main.setBalance(getBalance());
         main.setUsername(getUsername());
+        try {
+            main.initializing(getUsername());
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
 
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         scene = new Scene(root, 1049, 518);

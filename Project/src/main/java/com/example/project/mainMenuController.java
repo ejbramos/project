@@ -82,7 +82,7 @@ protected void transHisClick(ActionEvent event) throws FileNotFoundException {
     main.initializing(getUsername());
 
     stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-    scene = new Scene(root, 1049, 518);
+    scene = new Scene(root, 823, 586);
     stage.setScene(scene);
     stage.show();
 }

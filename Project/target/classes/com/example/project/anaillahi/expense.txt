@@ -1,0 +1,3 @@
+2023-04-15,Transportation,10000,Gas Allocation
+2023-04-15,Food ,10000,Groceries
+2023-04-14,Micellaneous,5000,Gimik

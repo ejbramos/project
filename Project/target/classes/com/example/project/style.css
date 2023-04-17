@@ -5,12 +5,4 @@
 
 .label{
     -fx-alignment: center;
-    -fx-text: #ff0000;
-}
-.datePicker{
-    -fx-background-color: #fff5ec;
-    -fx-datePicker-background-color: #fff5ec;
-}
-.history{
--fx-alignment: center;
 }

@@ -1,0 +1,2 @@
+2023-04-12,Salary,100000,Income,income
+2023-04-15,Dividend,500000,Income,income

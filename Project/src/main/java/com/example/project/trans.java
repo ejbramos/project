@@ -11,12 +11,12 @@ public class trans {
         this.date = date;
     }
 
-    public String getDesc() {
-        return desc;
+    public String getDescription() {
+        return desccription;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc;
+    public void setDescription(String description) {
+        this.desccription = description;
     }
 
     public String getAmount() {
@@ -27,11 +27,11 @@ public class trans {
         this.amount = amount;
     }
 
-    String desc;
+    String desccription;
     String amount;
     trans(String date, String desc, String amount){
         setAmount(amount);
         setDate(date);
-        setDesc(desc);
+        setDescription(desc);
     }
 }
