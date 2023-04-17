@@ -1,0 +1,8 @@
+.loginField{
+    -fx-text-inner-color: #dfd8c8;
+    -fx-background-color: #1a1a1a;
+}
+
+.label{
+    -fx-alignment: center;
+}

@@ -1,0 +1,2 @@
+2023-04-13,Salary,1000,1 month salary
+2023-03-30,Inventor,900,commission

@@ -1,0 +1,16 @@
+.loginField{
+    -fx-text-inner-color: #dfd8c8;
+    -fx-background-color: #1a1a1a;
+}
+
+.label{
+    -fx-alignment: center;
+    -fx-text: #ff0000;
+}
+.datePicker{
+    -fx-background-color: #fff5ec;
+    -fx-datePicker-background-color: #fff5ec;
+}
+.history{
+-fx-alignment: center;
+}
